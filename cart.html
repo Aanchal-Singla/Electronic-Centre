@@ -1,0 +1,205 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial scale=1.0">
+	<title>Home</title>
+	<!--css file-->
+	<link rel="stylesheet" type="text/css" href="css/homestyle.css">
+	<!--font awesome icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<!--swiper css link-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body  style="background:white">
+	<!--header-->
+	<header class="header">
+		<a href="home page.html" class="logo"><i class="fas fa-store"></i>ElectroMega</a>
+		<form action="" class="search-form">
+		<input type="search" id="search-for" placeholder="search-here">
+		<label for="search-for" class="fas fa-search"></label>
+	</form>
+
+	<div class="icons">
+		<div id="menu-btn" class="fas fa-bars"></div> 
+		<div id="search-btn" class="fas fa-search"></div>
+		<a href="login.html" id="icon" class="fas fa-user"></a>
+		<a href="#" id="icon"class="fas fa-heart"></a>
+		<a href="cart.html" id="icon"class="fas fa-shopping-cart"></a>
+
+
+	</div>
+</header>
+<!--sidebar section-->
+<div class="sidebar" >
+    
+
+
+     <div id="close-side-bar" class="fas fa-times"></div>
+
+
+
+
+
+	<div class="user" >
+		<img src="images/user.jpeg" width=150px height=170px>
+		<h3>Saurav Valia</h3>
+		<a href="#" id="logout">Log Out</a>
+	</div>
+	<nav class="navbar">
+		<a href="home page.html"><i class="fas fa-angle-right"></i>Home</a>
+		<a href="about page.html"><i class="fas fa-angle-right"></i>About</a>
+		<a href="products.html"><i class="fas fa-angle-right"></i>Products</a>
+		<a href="demo.html"><i class="fas fa-angle-right"></i>Demo</a>
+		<a href="contact.html"><i class="fas fa-angle-right"></i>Contact</a>
+		<a href="login.html"><i class="fas fa-angle-right"></i>Login</a>
+		<a href="register.html"><i class="fas fa-angle-right"></i>Register</a>
+		<a href="cart.html" ><i class="fas fa-angle-right"></i>Cart</a>
+	</nav>
+</div>
+<!--sidebar section ends-->
+<!--shoping carts starts-->
+<section class="shoping-cart">
+	<h1 class="cartheading">Your<span>products</span></h1>
+	<div class="cartcontainer">
+
+		<div class="cartbox">
+			<i class="fas fa-times"></i>
+			<img src="images/cart-iphn.jpg"height="230px" width="270px">
+			<div class="cartcontent">
+				<h3>Smartphones</h3>
+				<form action="" class="cartform">
+					<span class="cartspan">quantity : </span>
+					<input type="number" name=""value="1" id="cartinput">
+				</form>
+				<div class="cartprice">$249.99<span class="pricespan">$399.99</span></div>
+			</div>
+		</div>
+
+
+        <div class="cartbox">
+			<i class="fas fa-times"></i>
+			<img src="images/cart-watch.webp"height="230px" width="270px">
+			<div class="cartcontent">
+				<h3>Smartwatch</h3>
+				<form action="" class="cartform">
+					<span class="cartspan">quantity : </span>
+					<input type="number" name=""value="1" id="cartinput">
+				</form>
+				<div class="cartprice">$249.99<span class="pricespan">$399.99</span></div>
+			</div>
+		</div>
+
+
+
+		<div class="cartbox">
+			<i class="fas fa-times"></i>
+			<img src="images/cart-headphn.jpg"height="230px" width="270px">
+			<div class="cartcontent">
+				<h3>Headphones</h3>
+				<form action="" class="cartform">
+					<span class="cartspan">quantity : </span>
+					<input type="number" name=""value="1" id="cartinput">
+				</form>
+				<div class="cartprice">$249.99<span class="pricespan">$399.99</span></div>
+			</div>
+		</div>
+
+		<div class="cartbox">
+			<i class="fas fa-times"></i>
+			<img src="images/cart-game.webp" height="230px" width="270px">
+			<div class="cartcontent">
+				<h3>Video Games</h3>
+				<form action="" class="cartform">
+					<span class="cartspan">quantity : </span>
+					<input type="number" name=""value="1" id="cartinput">
+				</form>
+				<div class="cartprice">$249.99<span class="pricespan">$399.99</span></div>
+			</div>
+		</div>
+
+
+		<div class="cartbox">
+			<i class="fas fa-times"></i>
+			<img src="images/cart-airpods.png"
+			height="230px" width="270px">
+			<div class="cartcontent">
+				<h3>Airpods</h3>
+				<form action="" class="cartform">
+					<span class="cartspan">quantity : </span>
+					<input type="number" name=""value="1" id="cartinput">
+				</form>
+				<div class="cartprice">$249.99<span class="pricespan">$399.99</span></div>
+			</div>
+		</div>
+
+		<div class="cartbox">
+			<i class="fas fa-times"></i>
+			<img src="images/cart-lcd.webp" height="230px" width="270px">
+			<div class="cartcontent">
+				<h3>Television</h3>
+				<form action="" class="cartform">
+					<span class="cartspan">quantity : </span>
+					<input type="number" name=""value="1" id="cartinput">
+				</form>
+				<div class="cartprice">$249.99<span class="pricespan">$399.99</span></div>
+			</div>
+		</div>
+	</div>
+
+		
+
+<div class="cart-total" >
+	<h3>subtotal : <span class="total">$1499.94</span></h3>
+	<h3>discount : <span class="total">$99.94</span></h3>
+	<h3>subtotal : <span class="total">$1400.00</span></h3>
+	<a href="#" class="cartbtn">proceed to checkout</a>
+</div>
+</section>
+
+
+<!--shopping cart ens-->
+
+<!--footer section-->
+<section class="quick-links">
+	<a href="home page.html" class="logo"><i class="fas fa-store"></i>Electromega</a>
+	<div class="links">
+		 <a href="home page.html"><i class="fas fa-angle-right"></i>Home</a>
+		<a href="about page.html"><i class="fas fa-angle-right"></i>About</a>
+		<a href="products.html"><i class="fas fa-angle-right"></i>Products</a>
+		<a href="contact.html"><i class="fas fa-angle-right"></i>Contact</a>
+		<a href="login.html"><i class="fas fa-angle-right"></i>Login</a>
+		<a href="register.html"><i class="fas fa-angle-right"></i>Register</a>
+		<a href="cart.html" ><i class="fas fa-angle-right"></i>Cart</a>
+	</div>
+
+	<div class="share">
+		<a href="#" class="fab fa-facebook-f"></a>
+		<a href="#" class="fab fa-twitter"></a>
+		<a href="#" class="fab fa-instagram"></a>
+		<a href="#" class="fab fa-linkedin"></a>
+	</div>
+</section>
+<section class="credit">
+	<p> created by<span>Aanchal Singla</span> | all rights reserved!|
+		</p>
+
+		<img src="images/creditcards.png">
+
+	</section>
+	
+
+
+
+
+
+
+
+<!--swipper js link-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+	<!--js file-->
+	<script src="js/script.js"></script>
+
+
+</body>
